@@ -1,0 +1,20 @@
+Main Grey Color : #F9F9F9
+Paragraph Css:
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+
+BreadCrumbs Title
+
+AIzaSyCZQdWZWsNyakL30EBvVherj04c9HcqFc8
+
+Clothing
+Accessories
+Featured
+WHY WE CHOOSE
+Shipping & Return
+Secure ShoppingGallaryAffiliatesContacts
+
+
+
+AIzaSyAdlp3Om_zwn1cTWM6X3FL-i2Nw5og3TrI

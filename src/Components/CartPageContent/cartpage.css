@@ -1,0 +1,5 @@
+.cartpage-content {
+    border: 2px solid grey;
+    display: flex;
+    flex-wrap: nowrap;
+}

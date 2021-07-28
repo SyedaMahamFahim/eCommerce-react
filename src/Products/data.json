@@ -1,0 +1,85 @@
+{
+    "products": [
+        {
+            "_id": 2,
+            "title": "Dress 1",
+            "image": "/images/1.jpg",
+            "description": "This is the first dress",
+            "price": "200$",
+            "availableSize": [
+                "XL",
+                "XXL"
+            ],
+            "SKU": "GK-101",
+            "Tag": "Category"
+        },
+        {
+            "_id": 2,
+            "title": "Dress 2",
+            "image": "/images/2.jpg",
+            "description": "This is the first dress",
+            "price": "200$",
+            "availableSize": [
+                "X",
+                "XL",
+                "M"
+            ],
+            "SKU": "GK-101",
+            "Tag": "Category"
+        },
+        {
+            "_id": 3,
+            "title": "Dress 3",
+            "image": "/images/3.jpg",
+            "description": "This is the first dress",
+            "price": "200$",
+            "availableSize": [
+                "X",
+                "M",
+                "L"
+            ],
+            "SKU": "GK-101",
+            "Tag": "Category"
+        },
+        {
+            "_id": 4,
+            "title": "Dress 4",
+            "image": "/images/4.jpg",
+            "description": "This is the first dress",
+            "price": "200$",
+            "availableSize": [
+                "XL",
+                "XXL",
+                "L"
+            ],
+            "SKU": "GK-101",
+            "Tag": "Category"
+        },
+        {
+            "_id": 5,
+            "title": "Dress 5",
+            "image": "/images/5.jpg",
+            "description": "This is the first dress",
+            "price": "200$",
+            "availableSize": [
+                "XL",
+                "XXL"
+            ],
+            "SKU": "GK-101",
+            "Tag": "Category"
+        },
+        {
+            "_id": 6,
+            "title": "Dress 6",
+           "image": "/images/3.jpg",
+            "description": "This is the first dress",
+            "price": "200$",
+            "availableSize": [
+                "XL",
+                "L"
+            ],
+            "SKU": "GK-101",
+            "Tag": "Category"
+        }
+    ]
+}

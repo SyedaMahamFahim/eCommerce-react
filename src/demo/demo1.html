@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* Background image with text */
+
+  .background_image{
+    background-image: url('https://thatrenchez.com/wp-content/uploads/2021/01/01_Home13.jpg');
+    background-size: cover;
+    padding: 140px;
+    text-align: center;}
+
+
+  .contact{
+    color: white;
+    text-align: center;
+    font-size: 55px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    text-shadow: 5px 5px 5px 5px #dc3545 !important;
+
+  }
+  .dash_divider{
+      color: white;
+      padding-bottom: 10px;
+  }
+  #contact_left_sidebar{
+      padding-bottom: 15px;
+  }
+  .contact_sidebar_heading{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+  }
+  
+  .divider{
+     color: #dc3545;
+     font-size: 30px;
+  }
+  .paragraph
+    {
+        color: black;
+        font-size: 15px;
+        font-family: 'Poppins';
+        letter-spacing: 1px;
+    }
+  #contact_right_sidebar{
+     padding-bottom: 15px;
+  }
+  div.form
+{
+    display: block;
+    text-align: center;
+}
+form
+{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+  .form_design{
+    border: 2px solid #ebeef1;
+    padding: 11px 107px 10px 11px;
+    background: #F6F7F8;
+    margin-right: 20px;
+  }
+  .block {
+    display: block;
+    width: 96%;
+    border: none;
+    background-color: #252930;
+    color: white;
+    padding: 14px 28px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Poppins';
+    letter-spacing: 1px;
+  }
+  .block:hover{
+      background-color: #dc3545;
+  }
+  .icons{
+    color: #ced7e1;
+    size: 8px;
+    padding: 0 4px;
+  }
+  .icons:hover{
+    color: #dc3545;
+}
+.desktop_break{
+    display: none;
+}
+@media only screen and (max-width: 575.98px){
+  
+    .background_image{
+    padding: 49px;
+    background-position: bottom;
+    }
+   
+    .row{
+        display: flex;
+         flex-flow: column-reverse;
+          }
+  .contact{
+    color: white;
+    text-align: center;
+    font-size: 21px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    text-shadow: 5px 5px 5px 5px #dc3545 !important;
+
+  }
+   .dash_divider{
+    color: white;
+    font-size: 7px;
+}
+.form_design{
+    border: 2px solid #ebeef1;
+    padding: 11px 107px 10px 11px;
+    background: #F6F7F8;
+    margin: 6px 15px 5px 0px;
+  }
+  .mobile_break{
+      display: none;
+  }
+  div.form
+{
+    display: block;
+    text-align: center;
+}
+.col-7 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+form
+{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.contact_sidebar_heading{
+    margin: auto;
+    width: 100%;
+    padding-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  .block {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: none;
+    background-color: #252930;
+    color: white;
+    padding: 10px 10px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Poppins';
+    letter-spacing: 1px;
+    
+    
+  }
+  .desktop_break{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+      
+  }
+ 
+  .col-5 {
+    -webkit-box-flex: 0;
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+}
+.paragraph {
+    color: black;
+    font-size: 12px;
+    font-family: 'Poppins';
+    letter-spacing: 1px;
+}
+textarea{
+    width: 300px; 
+    height: 150px 
+}
+  }
+
+
+/* Tablet Mini Width 575.98px And Max Width 767.98px */
+@media  (min-width: 575.98px) and (max-width: 991.98px){
+    .background_image {
+        padding: 73px;
+        background-position: bottom;
+    }
+     
+      .contact{
+        color: white;
+        text-align: center;
+        font-size: 45px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 800;
+        text-shadow: 5px 5px 5px 5px #dc3545 !important;
+    
+      }
+       .dash_divider{
+        color: white;
+        font-size: 7px;
+    }
+    .form_design{
+        border: 2px solid #ebeef1;
+        padding: 11px 107px 10px 11px;
+        background: #F6F7F8;
+        margin: 6px 15px 5px 0px;
+      }
+      .mobile_break{
+          display: none;
+      }
+      div.form
+    {
+        display: block;
+        text-align: center;
+    }
+    .col-7 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 58.333333%;
+        flex: 0 0 55.333333%;
+        max-width: 55.333333%;
+    }
+    form
+    {
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .contact_sidebar_heading{
+        margin: auto;
+        width: 100%;
+        padding-bottom: 20px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 25px;
+        font-weight: 500;
+        text-align: center;
+      }
+    
+      .block {
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        border: none;
+        background-color: #252930;
+        color: white;
+        padding: 10px 10px;
+        cursor: pointer;
+        text-align: center;
+        font-size: 15px;
+        font-family: 'Poppins';
+        letter-spacing: 1px;
+        
+        
+      }
+      .desktop_break{
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+          
+      }
+     
+      .col-5 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 40%;
+        flex: 0 0 40%;
+        max-width: 40%;
+        margin: auto;
+    }
+    .paragraph {
+        color: black;
+        font-size: 12px;
+        font-family: 'Poppins';
+        letter-spacing: 1px;
+    }
+    textarea{
+        width: 300px; 
+        height: 150px 
+    }
+      }
+    
+/* Tablet Mini Width 991.98px And Max Width 1199.98px */
+@media  (min-width: 991.98px) and (max-width:1199.98px )
+{
+    .background_image {
+        padding: 73px;
+        background-position: top;
+    }
+     
+      .contact{
+        color: white;
+        text-align: center;
+        font-size: 50px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 800;
+        text-shadow: 5px 5px 5px 5px #dc3545 !important;
+    
+      }
+       .dash_divider{
+        color: white;
+        font-size: 7px;
+    }
+    .form_design{
+        border: 2px solid #ebeef1;
+        padding: 11px 45px 10px 11px;
+        background: #F6F7F8;
+        margin: 6px 15px 5px 0px;
+      }
+      .mobile_break{
+          display: none;
+      }
+    
+    .col-7 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 58.333333%;
+        flex: 0 0 55.333333%;
+        max-width: 55.333333%;
+    }
+    form
+    {
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .contact_sidebar_heading{
+        margin: auto;
+        width: 100%;
+        padding-bottom: 20px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 25px;
+        font-weight: 500;
+        text-align: center;
+      }
+    
+      .block {
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        border: none;
+        background-color: #252930;
+        color: white;
+        padding: 10px 10px;
+        cursor: pointer;
+        text-align: center;
+        font-size: 15px;
+        font-family: 'Poppins';
+        letter-spacing: 1px;
+        
+        
+      }
+      .desktop_break{
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+          
+      }
+     
+      .col-5 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 40%;
+        flex: 0 0 40%;
+        max-width: 40%;
+        margin: auto;
+    }
+    .paragraph {
+        color: black;
+        font-size: 12px;
+        font-family: 'Poppins';
+        letter-spacing: 1px;
+    }
+    textarea{
+        width: 482px; 
+        height: 150px 
+    }
+    
+}
+</style>
+<body>
+    <div class="background_image">
+	
+        <h1 class="dash_divider">
+            ______________________ <span class="contact"> Contact </span>______________________
+        </h1>
+      </div>
+      
+    <br class="mobile_break"><br class="mobile_break"><br class="mobile_break"><br class="mobile_break"><br>
+    <div class="container">
+    
+        <div class="row">
+          <div class="col-5 " id="contact_left_sidebar">
+              <h1 class="contact_sidebar_heading">
+                General Inquiries​
+              </h1>
+              
+              <p class="divider mobile_break">
+                  ////////////////////
+              </p>
+              <p class="paragraph">
+                1408 Blocks Valley, Sydney, <br>
+                NSW 2060, Australia
+                <br><br>
+                (+61) 555-1408 <br>
+                info@blocksvalley.com
+                <br><br>
+                If you are a reporter looking for information on <br>
+                media services please contact us at:
+                <br>
+                press@blocksvalley.com
+              </p>
+              <br><br>
+              <a href="#"> <i class="fab fa-facebook-f icons"></i> </a>
+              <a href="#"> <i class="fab fa-instagram icons"></i></i> </a>
+              <a href="#">  <i class="fab fa-google-plus-g icons"></i> </a>
+              <a href="#"> <i class="fab fa-pinterest icons"></i></a>
+    
+          </div>
+          <div class="col-7" id="contact_right_sidebar">
+               <br class="desktop_break"><br class="desktop_break">
+            
+            <form action="" method="post">
+                
+                <input type="text" id="fname" name="fname" placeholder="First Name" class="form_design" required>
+                <input type="text" id="last_name" name="last_name" placeholder="Last Name" class="form_design" required>
+                <br class="mobile_break"><br class="mobile_break" required>
+                <input type="email" id="email" name="email" placeholder="Email Address" class="form_design" required>
+                <input type="tel" id="phone" name="phone" placeholder="Phone Number" class="form_design" required>
+                <br class="mobile_break"><br class="mobile_break">
+                <textarea name="message" id="message" cols="67" rows="10" class="form_design " required></textarea>
+                <br><br>
+                
+                <input type="submit" value="Submit" class="block"><br><br>
+              </form> 
+          </div>
+        </div>
+      </div>
+      <br><br><br><br>
+  
+</body>
+</html>

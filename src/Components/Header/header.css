@@ -1,0 +1,295 @@
+/*====================================================== Top Header Css =========================================== */
+.top-header-content{
+    display: flex;
+    background-color: #F9F9F9;
+    padding: 12px 0 0 0;
+    flex-basis: 100%;
+}
+.container{
+    padding: 5px 80px;
+}
+
+.top-header-left {
+    flex-basis: 50%;
+    display: flex;
+    margin: 0px 80px;
+    
+}
+.top-header-right {
+    flex-basis: 50%;
+    display: flex;
+    align-content: flex-end;
+    justify-content: flex-end;
+    margin: 0px 80px;
+}
+.top-header-right-para{
+    padding: 0px 15px;
+}
+.top-header-left-para{
+    padding: 0px 15px;
+}
+.change-icons-color:hover{
+
+   color:var(--theme-default)
+}
+
+
+/*====================================================== Header ====================================================== */
+header {
+    display: flex;
+    margin: 20px 95px;
+}
+.logo {
+    flex-basis: 20%;
+}
+img.logo {
+    vertical-align: baseline;
+    margin-top: 10px;
+}
+.searchbar {
+    display: flex;
+    flex-basis: 60%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-contact-icons {
+    display: flex;
+    align-content: space-around;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    flex-basis: 20%;
+    padding: 0px 20px;
+    text-align: center;
+    margin: auto;
+}
+.single-header-icon {
+    flex-basis: 35%;
+}
+svg.header-icons {
+    font-size: 25px;
+}
+/*====================================================== React Modal side bar=========================================== */
+.about-side-modal {
+    position: absolute !important;
+    inset: 0px 10px 10px 0px !important;
+    border: 1px solid rgb(204, 204, 204);
+    background: rgb(255, 255, 255);
+    overflow: auto;
+    outline: none;
+    padding: 20px;
+    width: 25em !important;;
+    height: -webkit-fill-available !important;;
+}
+.contact-modal {
+    text-align: center;
+}
+
+/*====================================================== Cart Basket Icon ========================================= */
+
+
+span.cart-basket{
+    position: absolute;
+    background: var(--theme-default);
+    width: 20px;
+    height: 20px;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 600;
+    /* top: 15%; */
+    padding: 3px;
+}
+
+/*====================================================== Navbar Css ========================================= */
+nav {
+    background: #F9F9F9;
+    padding: 15px 0px;
+}
+.navbar {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+ul.nav-menu-ul {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.about-icon {
+    display: flex;
+    flex-basis: 10%;
+    align-items: center;
+    align-content: center;
+}
+li.nav-menu-li {
+    padding: 2px 20px;
+    font-size: 15px;
+}
+li.nav-menu-li:active {
+    color: crimson;
+}
+
+a.nav-links:hover {
+    color: crimson;
+    border-bottom: 1px solid crimson;
+}
+/* ==================================================Mobile=============================================== */
+.mobile-header{
+    display: none;
+}
+
+
+/* ==================================================For 1025px to 1370px============================================ */
+@media only screen and (min-width: 1025px)and (max-width: 1370px){
+    .top-header-left {
+        margin: 0px 40px;
+    }
+    .top-header-left-para {
+        padding: 0px 20px 0px 0px;
+    }
+    header {
+        margin: 20px 40px;
+    }
+    input[type=search] {    
+        width: 350px !important;
+    }
+    .navbar {
+        width: 92%;
+    }
+    li.nav-menu-li {
+        padding: 2px 15px;
+    }
+}
+/* ==================================================For 410px to 1024px============================================ */
+@media only screen and (min-width: 410px)and (max-width: 1024px){
+    /* .mobile-bar{
+        display: flex;
+    } */
+    .top-header-content {
+        flex-direction: column;
+    }
+    .top-header-left {
+        margin: 0px;
+    }
+    .top-header-right {
+        display: none;
+    }
+    header {
+        display: none;
+    }
+    .navigationbar-section{
+        display: none;
+    }
+    .mobile-header {
+        display: flex;
+        flex-wrap: nowrap;
+        align-content: space-around;
+        justify-content: space-between;
+        margin: 0px 20px;
+    }
+    nav {
+        background: white;
+    }
+    .about-icon {
+        display: none;
+    }
+    
+    .navbar {    
+        margin: 50px auto;
+        align-content: space-between;
+        justify-content: space-between;
+    }
+    ul.nav-menu-ul {
+        flex-direction: column;
+    }
+    li.nav-menu-li {
+        padding: 10px 20px;
+        font-size: 15px;
+        color: black !important;
+        font-weight: 700;
+    }
+    .mobile-bar {
+        margin-top: 10px;
+    }
+    .top-header-left {
+        align-content: space-around;
+    justify-content: space-between;
+    }
+    .user-contact-icons {
+        margin-top: 40px;
+    }
+
+}
+/* ==================================================For 220px to 409px============================================ */
+@media only screen and (min-width: 220px)and (max-width: 409px){
+    
+    .about-side-modal {
+        width: 15em !important;
+    }
+    input[type=search] {
+        width: auto !important;
+    }
+    .searchbar {
+        margin-top: 40px;
+    }
+    .top-header-content {
+        flex-direction: column;
+    }
+    .top-header-left {
+        margin: 0px;
+    }
+    .top-header-right {
+        display: none;
+    }
+    header {
+        display: none;
+    }
+    .navigationbar-section{
+        display: none;
+    }
+    .mobile-header {
+        display: flex;
+        flex-wrap: nowrap;
+        align-content: space-around;
+        justify-content: space-between;
+        margin: 0px 20px;
+    }
+    nav {
+        background: white;
+    }
+    .about-icon {
+        display: none;
+    }
+    
+    .navbar {
+        margin: 50px 0px;
+    }
+    ul.nav-menu-ul {
+        flex-direction: column;
+    }
+    li.nav-menu-li {
+        padding: 10px 0px;
+        font-size: 12px;
+        color: black !important;
+        font-weight: 700;
+    }
+    .mobile-bar {
+        margin-top: 10px;
+    }
+    .top-header-left {
+        align-content: space-around;
+    justify-content: space-between;
+    }
+    .top-header-left-para {
+        padding: 2px;
+    }
+    /*  */
+
+}

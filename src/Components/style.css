@@ -1,0 +1,84 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+:root {
+    --theme-default: #ff4c3b;
+    --theme-transparent:transparent;
+    --theme-gradient1: #01effc;
+    --theme-gradient2: #485ff2;
+
+}
+body {
+    background: #fff;
+    font-size: 14px;
+    overflow-x: hidden;
+    letter-spacing: .8px;
+}
+body, h1, h2, h3, h4, h5, h6, html {
+    font-family: Work Sans,sans-serif;
+    font-weight: 400;}
+p {
+    font-size: 14px;
+    color: #777;
+    line-height: 20px;
+    letter-spacing: 2px;
+}
+li {
+    list-style: none;
+    line-height: 2;
+    color: #777;
+    font-size: 14px;
+}
+a {
+    text-decoration: none;
+    color: #777;
+    letter-spacing: 1.8px;
+}
+h2.child-heading {
+    margin-bottom: 10px;
+}
+svg {
+    vertical-align: middle;
+    margin: 5px 0px;
+}
+/* Main Css For All Pages */
+/* Global Button Styles */
+button.btn {
+    padding: 14px;
+    border: none;
+    margin: 5px 10px;
+}
+input[type=email],input[type=tel],input[type=text]{
+    padding: 13px;
+    width: 345px;
+    border-radius: 0;
+    border: 1px solid #eee;
+    height: auto;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    margin: 15px;
+    background: #b3b0b012;
+}
+
+input[type=search]{
+    padding: 13px;
+    width: 580px;
+    border-radius: 0;
+    border: 1px solid #eee;
+    height: auto;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    background: #b3b0b012;
+}
+input[type=email]:focus,input[type=search]:focus,input[type=text]:focus {
+    border: 2px solid var(--theme-default);
+}
+textarea { resize: vertical; }
+/* only vertical resize */
+
+
+

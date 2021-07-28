@@ -1,0 +1,33 @@
+nav {
+    background: #F9F9F9;
+}
+.navbar {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+ul.nav-menu-ul {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.about-icon {
+    display: flex;
+    flex-basis: 10%;
+    align-items: center;
+    align-content: center;
+}
+li.nav-menu-li {
+    padding: 2px 20px;
+    font-size: 15px;
+}
+li.nav-menu-li:active {
+    color: crimson;
+}
+
+a.nav-links:hover {
+    color: crimson;
+    border-bottom: 1px solid crimson;
+}
